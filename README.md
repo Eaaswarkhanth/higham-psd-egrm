@@ -189,9 +189,6 @@ python scripts/npy_to_genesis_rds.py \
 
 ## Notes
 
-- Do not upload private genotype, kinship, eGRM, or sample-level data to GitHub.
-- Keep real data outside the repository and pass paths by command-line arguments.
-- The `.gitignore` intentionally excludes large matrix files and result outputs.
 - For HPC use, edit SLURM account/partition settings locally or pass site-specific options at submission time.
 
 ## Optional: create tiny synthetic `.npy` inputs for testing

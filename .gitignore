@@ -3,9 +3,11 @@ __pycache__/
 .DS_Store
 .env
 .venv/
+
 logs/
 results/
 tmp/
+
 *.log
 *.npy
 *.RDS
@@ -13,5 +15,6 @@ tmp/
 *.csv
 *.tsv
 *.txt
+
 !examples/*.txt
 !examples/*.tsv

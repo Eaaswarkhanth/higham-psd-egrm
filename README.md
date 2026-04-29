@@ -193,7 +193,7 @@ python scripts/npy_to_genesis_rds.py \
 
 ## Optional: create tiny synthetic `.npy` inputs for testing
 
-Do not commit real eGRM/kinship/genomic matrices to GitHub. For testing the workflow, generate toy matrices:
+For testing the workflow, generate toy matrices:
 
 ```bash
 python examples/make_synthetic_egrm.py \

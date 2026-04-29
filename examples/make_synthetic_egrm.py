@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 """
-Create tiny synthetic eGRM-like .npy matrices for testing the Higham PSD/PD workflow.
-
-This script intentionally generates toy matrices only. Do not commit real genomic
-or participant-level data to GitHub.
+This script generates synthetic eGRM-like .npy toy matrices for testing the Higham PSD/PD workflow.
 """
 
 import argparse
